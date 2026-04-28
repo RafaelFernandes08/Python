@@ -1,0 +1,5 @@
+v = float(input('Qual o Valor do produto?R$'))
+d =  v - (v * 5 / 100)
+a = v + (v * 8 / 100)
+print('O produto que custa {:.2f}R$,se for pago a vista ganha um desconto de 5% e passa a custar {:.2f}R$'.format(v , d ))
+print('Esse mesmo produto se for pago parcelado ganha um acrecimo de 8% e passa a custar {:.2f}R$'.format(a))

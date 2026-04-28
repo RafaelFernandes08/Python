@@ -1,0 +1,11 @@
+frase = str(input('Qual é o seu nome e sobrenome?'))
+m = frase.upper()
+n = frase.lower()
+e = frase.strip()
+f = frase.split()
+p = f[0]
+ler = len(p)
+print('Seu nome em maiusculo é {}'.format(m))
+print('Seu nome em minusculo é {}'.format(n))
+print('Seu nome completo sem contar os espaços têm {} letras'.format(f))
+print('Seu primeiro nome tem {} Letras'.format(ler))
